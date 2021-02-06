@@ -1,0 +1,4 @@
+com/motivaxion/demo2/runners/AutenticacionRunner.java
+ com.motivaxion.demo2.runners.AutenticacionRunner
+com/motivaxion/demo2/stepdefinitions/AutenticacionStepdefinition.java
+ com.motivaxion.demo2.stepdefinitions.AutenticacionStepdefinition

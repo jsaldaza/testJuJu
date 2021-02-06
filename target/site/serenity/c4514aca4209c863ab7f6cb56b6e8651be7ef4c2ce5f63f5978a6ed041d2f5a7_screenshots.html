@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">TestJuju</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e33945689bcf2596291e46679e7d4bb8c8e053a29ff9ee768224f25dca4f0299.html">Autenticarse En La Pagina Demo2 Motivaxion</a></span>
+                > <span class="truncate-60"><a
+                    href="c4514aca4209c863ab7f6cb56b6e8651be7ef4c2ce5f63f5978a6ed041d2f5a7.html">Inicio de sesion en la pagina demodos motivaxion </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2021 13:10</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Autenticarse En La Pagina Demo2 Motivaxion </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Inicio de sesion en la pagina demodos motivaxion
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que el usuario se autentica en la pagina demo dos motivaxion<br><table class='embedded'><thead><th>jujudemo</th><th>12345678</th></thead><tbody></tbody></table><br>Cuando realice la publicacion de una noticia<br><table class='embedded'><thead><th>&lt;Descripcion&gt;</th><th>&lt;Link&gt;</th></thead><tbody></tbody></table><br>Entonces se visualiza la publicacion de la noticia<br><table class='embedded'><thead><th>&lt;Descripcion&gt;</th></thead><tbody></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="965d99859620cfc68e301516cc3c287489f422893fd0de892fa87e6fffc06790.png" title=" Example #1: {Descripcion=Nuevas aplicaciones de Inteligencia Artificial en el 2020, Link=https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw}" width="1366"/>
+                <img src="965d99859620cfc68e301516cc3c287489f422893fd0de892fa87e6fffc06790.png" title=" Dado que el usuario se autentica en la pagina demo dos motivaxion
+| jujudemo | 12345678 |" width="1366"/>
+                <img src="965d99859620cfc68e301516cc3c287489f422893fd0de892fa87e6fffc06790.png" title=" Usuario abrir navegador" width="1366"/>
+                <img src="965d99859620cfc68e301516cc3c287489f422893fd0de892fa87e6fffc06790.png" title=" usuario opens the https://demo2-qa.jujutests.com/pages/login" width="1366"/>
+                <img src="965d99859620cfc68e301516cc3c287489f422893fd0de892fa87e6fffc06790.png" title=" Usuario abrir navegador (completed)" width="1366"/>
+                <img src="965d99859620cfc68e301516cc3c287489f422893fd0de892fa87e6fffc06790.png" title=" Usuario realiza autenticacion" width="1366"/>
+                <img src="2781471ecca2124cebb4cf061a480c5ce12fcac1e295a267b7c49dc4ce0c20a7.png" title=" usuario enters 'jujudemo' into nombre de usuario" width="1366"/>
+                <img src="dd10d26b8966a0b571b5945a022c5b9bcff7f2a2d3093396f806d6e48f7b9e7d.png" title=" usuario enters 'jujudemo' into nombre de usuario" width="1366"/>
+                <img src="a7e01d11e00cdf1b8653e01db0349ddd6cd5ba47e3f2f2825849dce7e5054e86.png" title=" usuario enters 'jujudemo' into nombre de usuario (completed)" width="1366"/>
+                <img src="a7e01d11e00cdf1b8653e01db0349ddd6cd5ba47e3f2f2825849dce7e5054e86.png" title=" usuario enters '12345678' into contrase&ntilde;a" width="1366"/>
+                <img src="a4c81557d7ab93a520ac02dcf7304a09e323ff9552113fbb139ab12ada81a1e6.png" title=" usuario enters '12345678' into contrase&ntilde;a" width="1366"/>
+                <img src="a4c81557d7ab93a520ac02dcf7304a09e323ff9552113fbb139ab12ada81a1e6.png" title=" usuario enters '12345678' into contrase&ntilde;a (completed)" width="1366"/>
+                <img src="a4c81557d7ab93a520ac02dcf7304a09e323ff9552113fbb139ab12ada81a1e6.png" title=" usuario clicks on entrar" width="1366"/>
+                <img src="8e612083ddac8af2e982528ebb9febdff7d16cdcc3804a1243a4792eb0e09533.png" title=" usuario clicks on entrar" width="1366"/>
+                <img src="8e612083ddac8af2e982528ebb9febdff7d16cdcc3804a1243a4792eb0e09533.png" title=" usuario clicks on entrar (completed)" width="1366"/>
+                <img src="8e612083ddac8af2e982528ebb9febdff7d16cdcc3804a1243a4792eb0e09533.png" title=" usuario clicks on home" width="1366"/>
+                <img src="ff2904c2176b30c934f7bd22191883231384312669ec7cc7e164e6e7ed8cd2eb.png" title=" usuario clicks on home (completed)" width="1366"/>
+                <img src="ff2904c2176b30c934f7bd22191883231384312669ec7cc7e164e6e7ed8cd2eb.png" title=" Usuario realiza autenticacion (completed)" width="1366"/>
+                <img src="ff2904c2176b30c934f7bd22191883231384312669ec7cc7e164e6e7ed8cd2eb.png" title=" Dado que el usuario se autentica en la pagina demo dos motivaxion
+| jujudemo | 12345678 | (completed)" width="1366"/>
+                <img src="ff2904c2176b30c934f7bd22191883231384312669ec7cc7e164e6e7ed8cd2eb.png" title=" Cuando realice la publicacion de una noticia
+| Nuevas aplicaciones de Inteligencia Artificial en el 2020 | https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw |" width="1366"/>
+                <img src="ff2904c2176b30c934f7bd22191883231384312669ec7cc7e164e6e7ed8cd2eb.png" title=" Usuario publica noticia" width="1366"/>
+                <img src="ff2904c2176b30c934f7bd22191883231384312669ec7cc7e164e6e7ed8cd2eb.png" title=" usuario enters 'Nuevas aplicaciones de Inteligencia Artificial en el 2020' into descripcion" width="1366"/>
+                <img src="579a622e7cedd70b1dc8c6a1deb34dcdf9f80d37b00e059f4096f18ad6a18bb3.png" title=" usuario enters 'Nuevas aplicaciones de Inteligencia Artificial en el 2020' into descripcion" width="1366"/>
+                <img src="579a622e7cedd70b1dc8c6a1deb34dcdf9f80d37b00e059f4096f18ad6a18bb3.png" title=" usuario enters 'Nuevas aplicaciones de Inteligencia Artificial en el 2020' into descripcion (completed)" width="1366"/>
+                <img src="579a622e7cedd70b1dc8c6a1deb34dcdf9f80d37b00e059f4096f18ad6a18bb3.png" title=" Usuario implicit wait" width="1366"/>
+                <img src="b88ad7599bca3ee6f5fe3dfddc675dd7fb6f9726fdfefea0992e61c09df5123f.png" title=" Usuario implicit wait (completed)" width="1366"/>
+                <img src="b88ad7599bca3ee6f5fe3dfddc675dd7fb6f9726fdfefea0992e61c09df5123f.png" title=" usuario clicks on video" width="1366"/>
+                <img src="ff8c9acb5baf3df7607977fcddfd345a583326b9f11d78ebee9a96d773f68eb0.png" title=" usuario clicks on video (completed)" width="1366"/>
+                <img src="ff8c9acb5baf3df7607977fcddfd345a583326b9f11d78ebee9a96d773f68eb0.png" title=" usuario clicks on link" width="1366"/>
+                <img src="481a594c3553f156e7fd9733e5894256fb8d16d6a395c735d9480efb7a9e642b.png" title=" usuario clicks on link (completed)" width="1366"/>
+                <img src="481a594c3553f156e7fd9733e5894256fb8d16d6a395c735d9480efb7a9e642b.png" title=" usuario enters 'https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw' into link" width="1366"/>
+                <img src="cd1b8e3888e16713eb71c85a33f84ce82d36f109fcdfe25a83e87db692406317.png" title=" usuario enters 'https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw' into link" width="1366"/>
+                <img src="cd1b8e3888e16713eb71c85a33f84ce82d36f109fcdfe25a83e87db692406317.png" title=" usuario enters 'https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw' into link (completed)" width="1366"/>
+                <img src="cd1b8e3888e16713eb71c85a33f84ce82d36f109fcdfe25a83e87db692406317.png" title=" usuario clicks on publicar" width="1366"/>
+                <img src="8589df92a2f2dfffb0a1ba90caba7f14e66ceccf6691c3bee666748e95f29675.png" title=" usuario clicks on publicar (completed)" width="1366"/>
+                <img src="8589df92a2f2dfffb0a1ba90caba7f14e66ceccf6691c3bee666748e95f29675.png" title=" Cuando realice la publicacion de una noticia
+| Nuevas aplicaciones de Inteligencia Artificial en el 2020 | https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw |" width="1366"/>
+                <img src="8589df92a2f2dfffb0a1ba90caba7f14e66ceccf6691c3bee666748e95f29675.png" title=" Usuario publica noticia (completed)" width="1366"/>
+                <img src="8589df92a2f2dfffb0a1ba90caba7f14e66ceccf6691c3bee666748e95f29675.png" title=" Entonces se visualiza la publicacion de la noticia
+| Nuevas aplicaciones de Inteligencia Artificial en el 2020 |" width="1366"/>
+                <img src="bc0cc5c3f5215294425e6433a4195e152c5d23b04f06f03dca2c8dd0a4fdc691.png" title=" Then validar noticia" width="1366"/>
+                <img src="bc0cc5c3f5215294425e6433a4195e152c5d23b04f06f03dca2c8dd0a4fdc691.png" title=" Then validar noticia (completed)" width="1366"/>
+                <img src="bc0cc5c3f5215294425e6433a4195e152c5d23b04f06f03dca2c8dd0a4fdc691.png" title=" Example #1: {Descripcion=Nuevas aplicaciones de Inteligencia Artificial en el 2020, Link=https://www.youtube.com/watch?v=itDocS0u-UU&amp;ab_channel=AddKw}" width="1366"/>
+                <img src="bc0cc5c3f5215294425e6433a4195e152c5d23b04f06f03dca2c8dd0a4fdc691.png" title=" Entonces se visualiza la publicacion de la noticia
+| Nuevas aplicaciones de Inteligencia Artificial en el 2020 | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.30</span>
+</div>
+</body>
+</html>

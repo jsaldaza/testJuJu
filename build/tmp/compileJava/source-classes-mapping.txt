@@ -1,0 +1,12 @@
+com/motivaxion/demo2/tasks/PublicaNoticia.java
+ com.motivaxion.demo2.tasks.PublicaNoticia
+com/motivaxion/demo2/questions/ValidarNoticia.java
+ com.motivaxion.demo2.questions.ValidarNoticia
+com/motivaxion/demo2/interactions/ImplicitWait.java
+ com.motivaxion.demo2.interactions.ImplicitWait
+com/motivaxion/demo2/interactions/AbrirNavegador.java
+ com.motivaxion.demo2.interactions.AbrirNavegador
+com/motivaxion/demo2/userinterfaces/PortalDemoDos.java
+ com.motivaxion.demo2.userinterfaces.PortalDemoDos
+com/motivaxion/demo2/tasks/RealizaAutenticacion.java
+ com.motivaxion.demo2.tasks.RealizaAutenticacion
